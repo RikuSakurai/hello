@@ -38,6 +38,6 @@ class kazuate{
             }
 
         }
-        System.out.println("終了、答えは" + answer + "です");
+        System.out.println("終了,答えは" + answer + "です");
     }
 }
