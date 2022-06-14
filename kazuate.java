@@ -39,5 +39,6 @@ class kazuate{
 
         }
         System.out.println("終了,答えは" + answer + "です");
+        scanner.close();
     }
 }
