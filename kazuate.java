@@ -12,7 +12,7 @@ class kazuate{
         for(int turn=1;turn<6;turn++){
 
             System.out.println("Turn" + turn + "");
-            System.out.println("2桁の数値を入力:");
+            System.out.println("2桁の整数を入力:");
             int num = scanner.nextInt();
 
             
@@ -38,6 +38,7 @@ class kazuate{
             }
 
         }
-        System.out.println("終了、答えは" + answer + "です");
+        System.out.println("終了,答えは" + answer + "です");
+        scanner.close();
     }
 }
